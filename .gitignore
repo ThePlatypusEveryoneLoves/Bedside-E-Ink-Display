@@ -1,0 +1,53 @@
+# KiCad backup and auto-save files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+_restore_*
+.history/
+
+# KiCad project lock files
+*.lck
+
+# KiCad temp files
+*.000
+*.bck
+
+# KiCad ERC/DRC reports
+*.rpt
+
+# Footprint library tables (local overrides)
+# Comment out if you want to track these
+fp-lib-table
+sym-lib-table
+
+# Fabrication outputs (regenerate from source)
+# Comment out if you want to commit gerbers/BOM
+gerbers/
+fab/
+*.gbr
+*.drl
+*.csv
+*.pos
+*.d356
+*.xml
+*-JLCPCB.zip
+
+# KiCad cache files
+*.lib.cache
+*.lib.backup
+sym-lib-table.cache
+
+# 3D model cache
+*.wrl
+fp-info-cache
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Editor temp files
+*.swp
+*.swo
+*~
