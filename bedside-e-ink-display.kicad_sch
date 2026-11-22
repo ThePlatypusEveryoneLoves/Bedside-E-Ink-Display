@@ -6786,7 +6786,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 173.99) (xy 318.77 173.99)
+			(xy 311.15 180.34) (xy 322.58 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6996,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 196.85) (xy 307.34 194.31)
+			(xy 322.58 157.48) (xy 322.58 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7006,7 +7006,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 176.53) (xy 318.77 176.53)
+			(xy 311.15 177.8) (xy 322.58 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7236,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 194.31) (xy 318.77 194.31)
+			(xy 322.58 160.02) (xy 311.15 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7376,7 +7376,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 179.07) (xy 318.77 179.07)
+			(xy 311.15 175.26) (xy 322.58 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7936,7 +7936,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 162.56) (xy 306.07 160.02)
+			(xy 322.58 193.04) (xy 322.58 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7956,7 +7956,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 181.61) (xy 318.77 181.61)
+			(xy 322.58 172.72) (xy 311.15 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8086,6 +8086,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 199.39) (xy 330.835 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9df209-d601-439e-8db0-b2994b9e967a")
+	)
+	(wire
+		(pts
 			(xy 110.49 223.52) (xy 110.49 226.06)
 		)
 		(stroke
@@ -8153,6 +8163,16 @@
 			(type default)
 		)
 		(uuid "9968b164-a995-4476-ba86-077df560fb20")
+	)
+	(wire
+		(pts
+			(xy 322.58 182.88) (xy 322.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a24c37-0dfb-46d0-81ca-072ab90acd92")
 	)
 	(wire
 		(pts
@@ -8246,7 +8266,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 184.15) (xy 318.77 184.15)
+			(xy 322.58 170.18) (xy 311.15 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8266,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 186.69) (xy 318.77 186.69)
+			(xy 322.58 167.64) (xy 311.15 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8496,7 +8516,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 191.77) (xy 318.77 191.77)
+			(xy 322.58 162.56) (xy 311.15 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8706,6 +8726,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.835 199.39) (xy 330.835 200.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1b5566-2194-4714-ae46-048075927b55")
+	)
+	(wire
+		(pts
 			(xy 68.58 80.01) (xy 68.58 77.47)
 		)
 		(stroke
@@ -8816,7 +8846,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 171.45) (xy 306.07 171.45)
+			(xy 311.15 182.88) (xy 322.58 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8946,16 +8976,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 171.45) (xy 306.07 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f76f1d6d-3f10-4bbd-bc91-2f861cb4954d")
-	)
-	(wire
-		(pts
 			(xy 227.33 130.81) (xy 227.33 132.08)
 		)
 		(stroke
@@ -9026,13 +9046,23 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 189.23) (xy 318.77 189.23)
+			(xy 322.58 165.1) (xy 311.15 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff5ca79c-d47e-44c1-b6fa-14434acf7fe4")
+	)
+	(label "GPIO14"
+		(at 322.58 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c21b8a-d137-4d0d-88a1-1b1f0805c4d6")
 	)
 	(label "GPIO5"
 		(at 168.91 97.79 0)
@@ -9054,26 +9084,6 @@
 		)
 		(uuid "0e498d7f-1655-48a7-b8fa-ebbb42734eb7")
 	)
-	(label "USB_DN"
-		(at 111.76 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ed8ec81-b021-4334-9cfe-173bd58a07e4")
-	)
-	(label "GPIO14"
-		(at 308.61 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1619645e-5bb4-42a9-a574-353f276bdb3f")
-	)
 	(label "SPI_CIPO"
 		(at 168.91 118.11 0)
 		(effects
@@ -9093,6 +9103,16 @@
 			(justify left bottom)
 		)
 		(uuid "18781ae8-53df-4cc4-a7b4-9948523296e1")
+	)
+	(label "GPIO2"
+		(at 322.58 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f67937-be00-4738-b6cd-c015521c4a80")
 	)
 	(label "SPI_CS"
 		(at 168.91 113.03 0)
@@ -9154,6 +9174,16 @@
 		)
 		(uuid "3311e36d-ca75-4718-83f2-a3e083448176")
 	)
+	(label "GPIO9"
+		(at 322.58 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34018b45-e344-4d7c-8892-db41b3297a08")
+	)
 	(label "SPI_COPI"
 		(at 68.58 223.52 0)
 		(effects
@@ -9163,16 +9193,6 @@
 			(justify left bottom)
 		)
 		(uuid "363e0d64-fa69-4bfa-af85-9fb2003f458f")
-	)
-	(label "USB_UNFIL_DP"
-		(at 95.25 60.96 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a472fd7-3124-48fb-8e8a-bd648fd15d57")
 	)
 	(label "GPIO5"
 		(at 289.56 39.37 0)
@@ -9214,16 +9234,6 @@
 		)
 		(uuid "4fb8e782-ab58-44c4-8cbd-c462ad07e644")
 	)
-	(label "GPIO2"
-		(at 307.34 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56d3d33a-a300-4be2-973a-10e7bca71e1e")
-	)
 	(label "USB_UNFIL_DP"
 		(at 49.53 63.5 0)
 		(effects
@@ -9234,15 +9244,15 @@
 		)
 		(uuid "5dfd5f2f-25a3-4cf3-800f-11db5d257a36")
 	)
-	(label "GPIO16"
-		(at 308.61 176.53 180)
+	(label "GPIO17"
+		(at 322.58 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "62b9d6a5-cd36-480a-997e-dd1e8577d331")
+		(uuid "6017be01-aa86-4361-a7d6-b615d8677751")
 	)
 	(label "SPI_CS"
 		(at 68.58 218.44 0)
@@ -9263,16 +9273,6 @@
 			(justify left bottom)
 		)
 		(uuid "6a335f9c-92cd-4ba4-a82e-f4a6583bac5d")
-	)
-	(label "GPIO17"
-		(at 308.61 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e7af0e8-4d16-4fd0-a269-b9c87e5188da")
 	)
 	(label "GPIO17"
 		(at 214.63 85.09 0)
@@ -9304,7 +9304,7 @@
 		)
 		(uuid "75c1a89a-e867-46af-8299-01547ad25d6c")
 	)
-	(label "USB_UNFIL_DN"
+	(label "USB_UNFIL_DP"
 		(at 95.25 63.5 180)
 		(effects
 			(font
@@ -9312,7 +9312,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7d480b09-060a-46aa-a6a8-3e363012b8f4")
+		(uuid "7c2480c2-edeb-4389-83de-e418a2ae8b02")
 	)
 	(label "SPI_SCK"
 		(at 168.91 110.49 0)
@@ -9374,6 +9374,16 @@
 		)
 		(uuid "92e1fe05-4c7b-4576-9ea4-064447729279")
 	)
+	(label "GPIO16"
+		(at 322.58 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "973982e4-715b-4ef5-9504-170c55cbbb7a")
+	)
 	(label "UART_RXD0"
 		(at 214.63 82.55 0)
 		(effects
@@ -9404,15 +9414,15 @@
 		)
 		(uuid "a25c0476-872f-49d1-81c2-d601cd86a6c0")
 	)
-	(label "GPIO9"
-		(at 307.34 184.15 180)
+	(label "USB_UNFIL_DN"
+		(at 95.25 60.96 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
 			)
 			(justify right bottom)
 		)
-		(uuid "afda5d23-ef47-45b7-81fb-598b759626fd")
+		(uuid "a54c106e-7e9d-47ff-ae39-36973dcc46b4")
 	)
 	(label "UART_TXD0"
 		(at 214.63 80.01 0)
@@ -9444,25 +9454,15 @@
 		)
 		(uuid "be108d08-0617-4c37-8a24-31e13edbd04b")
 	)
-	(label "GPIO15"
-		(at 308.61 173.99 180)
+	(label "USB_DN"
+		(at 111.76 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "c0273897-de21-40f7-9730-91ce1843666e")
-	)
-	(label "GPIO8"
-		(at 307.34 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c35dca33-0584-4f57-9ad9-65332e4063a8")
+		(uuid "beae4f5c-c9af-49cd-958a-03957e95d7d1")
 	)
 	(label "GPIO8"
 		(at 168.91 105.41 0)
@@ -9484,13 +9484,33 @@
 		)
 		(uuid "cf4446de-597d-4de9-a947-608297402881")
 	)
-	(label "GPIO1"
-		(at 307.34 191.77 180)
+	(label "GPIO8"
+		(at 322.58 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "d20038eb-e3d4-4d2d-99a5-61b79298ccb8")
+	)
+	(label "USB_DP"
+		(at 111.76 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5e1ee64-dcf2-4800-8e81-04abb1052bc8")
+	)
+	(label "GPIO1"
+		(at 322.58 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "d85c9a5c-ee62-4372-baf7-2afd3f38dc09")
 	)
@@ -9523,16 +9543,6 @@
 			(justify left bottom)
 		)
 		(uuid "e66c2bcc-b194-469e-a0fe-4bf018453068")
-	)
-	(label "USB_DP"
-		(at 111.76 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec19d136-dc20-45db-b195-57c51fde8c8c")
 	)
 	(label "GPIO14"
 		(at 168.91 120.65 0)
@@ -9573,6 +9583,16 @@
 			(justify left bottom)
 		)
 		(uuid "ff98e42d-83d0-4883-85ae-76910c832ec0")
+	)
+	(label "GPIO15"
+		(at 322.58 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fff1b283-10a9-43c3-8b53-b558e1b8ccb4")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -10618,7 +10638,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 307.34 196.85 0)
+		(at 322.58 157.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10628,7 +10648,7 @@
 		(dnp no)
 		(uuid "22161e8f-424f-4f30-9d9a-f272d6819233")
 		(property "Reference" "#PWR044"
-			(at 307.34 203.2 0)
+			(at 322.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10639,7 +10659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 307.34 200.406 0)
+			(at 322.58 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10649,7 +10669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 196.85 0)
+			(at 322.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10660,7 +10680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 196.85 0)
+			(at 322.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10671,7 +10691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 196.85 0)
+			(at 322.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11786,7 +11806,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 306.07 160.02 0)
+		(at 330.835 200.025 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11796,7 +11816,7 @@
 		(dnp no)
 		(uuid "3affd91d-4053-4472-9ab7-7d93e533be5d")
 		(property "Reference" "#PWR043"
-			(at 306.07 163.83 0)
+			(at 330.835 196.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11807,7 +11827,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 306.07 155.956 0)
+			(at 330.835 204.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11817,7 +11837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 160.02 0)
+			(at 330.835 200.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11828,7 +11848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 160.02 0)
+			(at 330.835 200.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11839,7 +11859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 306.07 160.02 0)
+			(at 330.835 200.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11940,7 +11960,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 306.07 166.37 90)
+		(at 322.58 189.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11950,7 +11970,7 @@
 		(dnp no)
 		(uuid "3c49dd5d-cffa-4384-aaa2-16959c3137fa")
 		(property "Reference" "D8"
-			(at 306.832 163.576 90)
+			(at 321.818 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11961,7 +11981,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 303.53 158.496 0)
+			(at 325.12 197.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11972,7 +11992,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 306.07 166.37 0)
+			(at 322.58 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11983,7 +12003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 166.37 0)
+			(at 322.58 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11994,7 +12014,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 306.07 166.37 0)
+			(at 322.58 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12005,7 +12025,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 306.07 166.37 90)
+			(at 322.58 189.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17055,7 +17075,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 323.85 181.61 0)
+		(at 306.07 172.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17066,29 +17086,27 @@
 		(fields_autoplaced yes)
 		(uuid "cab5a791-ddb6-4a36-b34d-26af51803ed2")
 		(property "Reference" "J4"
-			(at 326.39 181.6099 0)
+			(at 306.07 154.305 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 326.39 184.1499 0)
+			(at 306.07 156.845 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
-			(at 323.85 181.61 0)
+			(at 306.07 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17099,7 +17117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 181.61 0)
+			(at 306.07 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17110,7 +17128,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 323.85 181.61 0)
+			(at 306.07 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
